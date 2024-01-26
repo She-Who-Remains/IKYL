@@ -140,6 +140,24 @@ var topics = [
     "Presidents of the United States"
 ];
 
+var dares = [
+    "Do A Mickey Mouse impression", 
+    "Prank Call A Friend",
+    "Act Like a Monkey for 15 seconds",
+    "Count backwards for 45",
+    "Ask neighbor for some a cup of sugar",
+    "Sing a silly song",
+    "Do 15 Jumping Jacks",
+    "Keep Your Eyes Closed for 1 full minute",
+    "Take a bite of a stick of better",
+    "Talk with your tongue out for 1 minute",
+    "Do an impression of the person that said you were lying",
+    "Eat a teaspoon of butter",
+    "Lick your elbow while reciting the alphabet",
+    ""
+
+]
+
 function generateRandomTopic() {
     var randomTopic = Math.floor(Math.random() * topics.length);
     document.getElementById("topic").innerText = topics[randomTopic];
